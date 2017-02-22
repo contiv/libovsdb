@@ -1,6 +1,7 @@
 {
-	"ImportPath": "github.com/socketplane/libovsdb",
-	"GoVersion": "go1.3.3",
+	"ImportPath": "github.com/contiv/libovsdb",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v79",
 	"Packages": [
 		"./..."
 	],
@@ -12,6 +13,10 @@
 		},
 		{
 			"ImportPath": "github.com/cenkalti/rpc2",
+			"Rev": "44d0d95e4f529a0fe230c90d2126bd597c61148c"
+		},
+		{
+			"ImportPath": "github.com/cenkalti/rpc2/jsonrpc",
 			"Rev": "44d0d95e4f529a0fe230c90d2126bd597c61148c"
 		}
 	]
